@@ -138,7 +138,7 @@ class BigramLanguageMmodel(nn.Module):
     return idx
 ```
 
-## Train
+## Train on Notebook
 
 Let setup some parameters
 
