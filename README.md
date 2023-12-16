@@ -248,6 +248,9 @@ loss.mean().backward()
 
 Here is the full train.py script
 
+<details>
+  <summary>train.py</summary>
+
 ```py
 import argparse
 import os
@@ -518,6 +521,8 @@ if __name__ == "__main__":
 
 ```
 
+</details>
+
 Let create a SageMaker training job
 
 ```py
@@ -581,6 +586,9 @@ sagemaker.s3.S3Downloader().download(
 ```
 
 Recreate the model
+
+<details>
+  <summary>model</summary>
 
 ```py
 batch_size = 64  # how many independent sequences will we process in parallel
@@ -715,6 +723,8 @@ class BigramLanguageMmodel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1)  # (B, T+1)
         return idx
 ```
+
+</details>
 
 Then load the weighs into the model
 
