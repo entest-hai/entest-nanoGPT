@@ -232,7 +232,22 @@ for iter in range(max_iters):
 
 ## Distributed Training
 
-Let modify the train.py with model and enable distributed training on SageMaker.
+- Upload training data to s3
+- Prepare script for distributed training
+
+First let download training data
+
+```bash
+!wget https://raw.g ithubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+```
+
+Then upload to the default sagemaker s3 bucket
+
+```bash
+aws s3 cp input.txt s3://$SAGEMAKER_BUCKET/train/input.txt
+```
+
+Now let modify the train.py with model and enable distributed training on SageMaker.
 
 > How to save model
 
