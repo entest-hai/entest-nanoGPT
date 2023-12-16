@@ -787,3 +787,17 @@ print(
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 [Natural Language Processing with Transformers, Revised Edition](https://www.amazon.sg/Natural-Language-Processing-Transformers-Applications/dp/1098103246)
+
+[SageMaker Distributed Training MNIST](https://github.com/aws/amazon-sagemaker-examples/blob/main/sagemaker-python-sdk/pytorch_mnist/mnist.py)
+
+[Distributed Training Workshop](https://shashankprasanna.com/workshops/pytorch-distributed-sagemaker/2_distributed_training.html)
+
+[Distributed Training Workshop GitHub](https://github.com/shashankprasanna/pytorch-sagemaker-distributed-workshop.git)
+
+[Data Prallelism Library in SageMaker](https://aws.amazon.com/blogs/aws/managed-data-parallelism-in-amazon-sagemaker-simplifies-training-on-large-datasets/)
+
+[The Science Behind Amazon SM Distributed Training Engine](https://www.amazon.science/latest-news/the-science-of-amazon-sagemakers-distributed-training-engines)
+
+[SMDDP Distributed Data Parallel Supported Instance](https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-data-parallel-support.html)
+
+[SageMaker Pytorch MNIST](https://github.com/aws/amazon-sagemaker-examples/blob/main/sagemaker-python-sdk/pytorch_mnist/mnist.py)
