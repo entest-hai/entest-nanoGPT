@@ -1,14 +1,14 @@
 ---
-title: lambda web adapter bedrock integration
+title: distributed training nanoGPT on sagemaker
 author: haimtran
-description: use lambda web adapter to integrate with bedrock
+description: distribuetd training nanoGPT on sagemaker
 publishedDate: 14/12/2023
 date: 2023-14-12
 ---
 
 ## Introduction
 
-[GitHub]() this note shows
+[GitHub](https://github.com/entest-hai/entest-nanoGPT) this note shows
 
 - Baby nanoGPT model
 - Distributed training on SageMaker
